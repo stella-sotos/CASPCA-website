@@ -363,17 +363,17 @@ margin-top: 18px;
 
 .yellow{
 	position:absolute;
-	width:80%;
-	height:100%;
+	width:70%;
+	height:80%;
 	text-align:center;
 	top:1850px;
-	left:320px;
+	left:370px;
 }
 .yellow1{
 	display: inline-block;
-	width:23%;
+	width:25%;
 	height:225px;
-	margin-right: 150px;
+	margin-right: 160px;
 	background-color: #EFE7A5;
 	border-radius: 10px;
 	box-shadow: 3px 3px 9px rgba(0,0,0,.25);
@@ -381,7 +381,7 @@ margin-top: 18px;
 
 .yellow2{
 	display: inline-block;
-	width:23%;
+	width:25%;
 	height:225px;
 	margin-right: 200px;
 	background-color: #EFE7A5;
