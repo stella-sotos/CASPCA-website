@@ -142,6 +142,9 @@ body{
 	box-shadow: 3px 3px 9px rgba(0,0,0,.25);
 	vertical-align: top;
 }
+.icon1{
+	display: inline-block; 
+}
 .icon img{
 width: 100%;
 height: auto;
@@ -290,12 +293,94 @@ margin-top: 18px;
 
 /*MEDIA QUERIES*/
 
+@media screen and (max-width: 1050px) {
+	.banner2{
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+/*nav bar*/
+	.nav h4{
+		font-size: 1.5vw;
+	}
+	.link{
+		padding-left:3px;
+		padding-right:3px;
+	}
+	/*icons*/
+	.icons{
+			width: 100%;
+			
+	}
+	.icon{
+		width: 110px;
+		height: 110px;
+	}
+	/*content*/
+	.banner2{
+		width: 100%;
+		height: auto;
+		position: absolute;
+		top: 180px;
+		bottom: 0;
+	}
+	.banner2 h3{
+		font-size: 7vw;
+		margin-top: 10px;
+		vertical-align: center;
+	}
+
+}
+
+@media screen and (max-width: 815px) {
+/*nav bar*/
+	.nav{
+		position: relative;
+		height: auto;
+		padding-bottom: 30px;
+	}
+	.nav h4{
+		font-size: 1.8vw;
+	}
+	.link{
+		padding-left:2%;
+		padding-right:2%;
+	}
+	.links{
+		padding-top: 15px;
+		position: absolute;
+		top: 30px;
+		left: 2%;
+		padding-bottom: 15px;
+		width: 100%
+	}
+
+	/*icons*/
+	.icons{
+			width: 100%;
+			
+	}
+
+	/*content*/
+	.left-cont{
+		width: 40%;
+	}
+	.right-cont{
+		width: 40%;
+	}
+	
+
+}
+
+
+
 @media screen and (max-width: 620px) { 
 	/*Nav bar*/
 	.nav{
 		position: relative;
 		height: auto;
-		padding-bottom: 16px;
+		padding-bottom: 25px;
 	}
 	.search{
 		display: block;		
@@ -324,7 +409,7 @@ margin-top: 18px;
 	}
 	
 	.links{
-		padding-top: 20px;
+		padding-top: 0px;
 		position: absolute;
 		top:40px;
 		left: 10%;
@@ -400,6 +485,28 @@ margin-top: 18px;
 		height: auto;
 		padding-bottom: 15px;
 	}
+
+	/*content*/
+	.left-cont{
+		width: 90%;
+		display: block;
+		margin-left: 5%;
+	}
+	.right-cont{
+		width: 90%;
+		display: block;
+		margin-left: 5%;
+	}
+	.content{
+		text-align: center;
+	}
+
+	.collage{
+		height: 250px;
+		width: auto;
+		position: relative;
+	}
+	
 }
 
 @media screen and (max-width: 375px) {
@@ -412,44 +519,3 @@ margin-top: 18px;
 		height: 80px;
 	}
 }	 
-
-@media screen and (max-width: 900px) {
-/*nav bar*/
-	.nav h4{
-		font-size: 1.5vw;
-	}
-	.link{
-		padding-left:3px;
-		padding-right:3px;
-	}
-}
-@media screen and (max-width: 815px) {
-/*nav bar*/
-	.nav{
-		position: relative;
-		height: auto;
-		padding-bottom: 30px;
-	}
-	.nav h4{
-		font-size: 1.8vw;
-	}
-	.link{
-		padding-left:2%;
-		padding-right:2%;
-	}
-	.links{
-		padding-top: 15px;
-		position: absolute;
-		top: 30px;
-		left: 2%;
-		padding-bottom: 15px;
-		width: 100%
-	}
-
-}
-
-
-
-
-
-

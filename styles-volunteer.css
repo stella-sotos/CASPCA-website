@@ -77,9 +77,10 @@ body{
   	border-bottom: 10px solid #efe7a5;
 }
 .banner{
-	height: 200px;
+	height: auto;
+	padding-bottom: 10px;
 	background-color: rgba(242,230,230,0.8);
-	width: 45%;
+	width: 47%;
 	position: absolute;
 	top: 200px;
 }
@@ -91,24 +92,25 @@ body{
 	padding-top: 35px;
 }
 .banner-left{
+	width: 25%;
 	display: inline-block;
 	height: 80%;
 	padding-top: 20px;
 	padding-left: 20px;
 }
 .banner-left img{
-	height: 100%;
-	width: auto;
+	height: auto;
+	width: 100%;
 }
 .top h3{
 	line-height: 10px;
-	font-size:28px;
+	font-size:2.5vw;
 	font-weight: 500;
 	color:#736f72;
 }
 .top h2{
 	line-height: 15px;
-	font-size:40px;
+	font-size:3.4vw;
 	font-weight: 600;
 	color:#736f72;
 	margin-top: 10px;
@@ -241,7 +243,7 @@ margin-top: 18px;
     font-family: 'Montserrat', sans-serif;
 	position: absolute;
 	right: 0;
-	width: 275px;
+	width: 61%;
 }
 .content .sign-in button {
   padding: 3px 27px;
@@ -281,4 +283,249 @@ margin-top: 18px;
 	margin: 0 7px;
 }
 
+/*MEDIA QUERIES*/
+
+
+@media screen and (max-width: 900px) {
+/*nav bar*/
+	.nav h4{
+		font-size: 1.5vw;
+	}
+	.link{
+		padding-left:3px;
+		padding-right:3px;
+	}
+	/*icons*/
+	.icons{
+			width: 100%;
+			
+	}
+	.icon{
+		width: 110px;
+		height: 110px;
+	}
+	/*content*/
+	
+	.left-cont{
+		width: 40%;
+	}
+	.right-cont{
+		width: 40%;
+	}
+
+}
+
+@media screen and (max-width: 815px) {
+/*nav bar*/
+	.nav{
+		position: relative;
+		height: auto;
+		padding-bottom: 30px;
+	}
+	.nav h4{
+		font-size: 1.8vw;
+	}
+	.link{
+		padding-left:2%;
+		padding-right:2%;
+	}
+	.links{
+		padding-top: 15px;
+		position: absolute;
+		top: 30px;
+		left: 2%;
+		padding-bottom: 15px;
+		width: 100%
+	}
+
+	/*icons*/
+	.icons{
+			width: 100%;
+			
+	}
+
+	/*content*/
+	.left-cont{
+		width: 45%;
+	}
+	.right-cont{
+		width: 45%;
+	}
+	.content input[type=text] {
+		width: 55%;
+	}
+	
+
+}
+
+
+
+@media screen and (max-width: 620px) { 
+	/*Nav bar*/
+	.nav{
+		position: relative;
+		height: auto;
+		padding-bottom: 25px;
+	}
+	.search{
+		display: block;		
+		top:10px;
+		right: 10px;
+		position: absolute;
+		width: 50%;
+		vertical-align: top;
+		margin-top:0;
+	}
+
+	.nav input[type=text] {
+	    width: 60%;
+	    
+	}
+	.nav h1{
+		font-size: 8vw;
+	}
+	.nav h4{
+		font-size: 2.6vw;
+		font-weight: 400;
+	}
+	.link{
+		padding-left:2px;
+		padding-right:2px;
+	}
+	
+	.links{
+		padding-top: 0px;
+		position: absolute;
+		top:40px;
+		left: 10%;
+		padding-bottom: 20px;
+	}
+	/*top section*/
+	.top{
+		height: 350px;
+		width: auto;
+		position: relative;
+	}
+	.banner{
+		width: 100%;
+		height: 100px;
+		position: absolute;
+		top:250px;
+	}
+	.banner img{
+
+	}
+	.banner-left{
+		width: 70px;
+		padding-top: 10px;
+		padding-left: 10px;
+	}
+	.banner-right{
+		padding-top: 20px;
+	}
+	.banner h2{
+		font-size: 5vw;
+		margin-bottom:10px;
+	}
+	.banner h3{
+		font-size: 3vw;
+		display: inline-block;
+		margin-top:0;
+	}
+	/*icon section*/
+
+	.icon{
+		width: 110px;
+		height: 110px;
+	}
+	.icons{
+		width: 100%;
+		text-align: center;
+	}	
+
+
+	.icons h2{
+		font-size: 4vw;
+	}
+	.icons img{
+		width: 80%;
+		height: auto;
+	}
+	/*footer*/
+	.foot-block{
+		width: 25%;
+		vertical-align: top;
+	}
+	.footer h4{
+		font-size: 4vw;
+	}
+	.footer p{
+		font-size: 3vw;
+	}
+	.bottom-foot img{
+		width: 70%;
+		height: auto;
+	}
+	.footer{
+		height: auto;
+		padding-bottom: 15px;
+	}
+
+	/*content*/
+	.left-cont{
+		width: 90%;
+		display: block;
+		margin-left: 5%;
+	}
+	.right-cont{
+		width: 90%;
+		display: block;
+		margin-left: 5%;
+	}
+	.content{
+		text-align: center;
+	}
+
+	.collage{
+		height: 250px;
+		width: auto;
+		position: relative;
+	}
+	.content input[type=text] {
+		width: 65%;
+	}
+
+	
+}
+@media screen and (max-width: 440px) {
+
+	.icon{
+		width: 100px;
+		height: 100px;
+		margin: 20px 20px;
+	}
+	.icons{
+		width: 100%;
+		text-align: center;
+	}	
+}
+
+
+
+@media screen and (max-width: 375px) {
+	.icons{
+			width: 100%;
+			
+	}
+
+	.icon{
+		width: 80px;
+		height: 80px;
+		margin: 10px 10px;
+	}
+
+	.content input[type=text] {
+		width: 55%;
+	}
+}	 
 
