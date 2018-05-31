@@ -132,6 +132,9 @@ body{
 .icons-centered{
 	text-align: center;
 }
+.icon1{
+	display: inline-block; 
+}
 .icon{
 	width: 140px;
 	height: 140px;
@@ -555,6 +558,16 @@ margin-top: 18px;
 		padding-left:3px;
 		padding-right:3px;
 	}
+	/*icons*/
+	.icons{
+			width: 100%;
+			
+	}
+	.icon{
+		width: 110px;
+		height: 110px;
+	}
+
 }
 @media screen and (max-width: 815px) {
 /*nav bar*/
@@ -578,6 +591,13 @@ margin-top: 18px;
 		padding-bottom: 15px;
 		width: 100%
 	}
+
+	/*icons*/
+	.icons{
+			width: 100%;
+			
+	}
+	
 
 }
 
